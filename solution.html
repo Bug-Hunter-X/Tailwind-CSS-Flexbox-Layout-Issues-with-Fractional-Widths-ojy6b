@@ -1,0 +1,7 @@
+```javascript
+<div class="flex">
+  <div class="bg-red-500 p-4 w-1/2 flex-shrink-0"></div>
+  <div class="bg-blue-500 p-4 w-1/2 flex-shrink-0"></div>
+</div>
+```
+Adding `flex-shrink-0` to the inner divs prevents them from shrinking, eliminating the extra space.  Alternatively, adding `space-x-0` to the parent flex container will remove any default spacing that Tailwind might be adding.
